@@ -1,0 +1,118 @@
+
+mat-toolbar {
+  padding: 0 16px;
+  background-color: #3f51b5;
+  color: white;
+}
+
+/* Spacer class to push elements to the right */
+.spacer {
+  flex: 1 1 auto;
+}
+/* Style for mat-option */
+.mat-option {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  padding: 8px 16px; /* Add some padding around */
+}
+
+/* Style for the SVG icon */
+.s3-icon {
+  margin-right: 10px; /* Adjust space between the icon and text */
+  fill: #fff; /* Ensure the icon has the correct color */
+  vertical-align: middle; /* Align the icon vertically to the middle */
+}
+.ebs-icon {
+    margin-right: 10px; /* Adjust space between the icon and text */
+    fill: #fff; /* Ensure the icon has the correct color */
+    vertical-align: middle; /* Align the icon vertically to the middle */
+  }
+.ec2-icon {
+    margin-right: 10px; /* Adjust space between the icon and text */
+    fill: #fff; /* Ensure the icon has the correct color */
+    vertical-align: middle; /* Align the icon vertically to the middle */
+  }
+/* Optionally style for the mat-card */
+.mat-tab-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mat-tab-label svg {
+    margin-right: 8px; /* Adjust space between the icon and the text */
+  }
+  
+.aws-card,
+.azure-card {
+  margin-top: 20px;
+}
+
+/* Optional styles for the "Coming Soon" section */
+.coming-soon {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
+
+.coming-soon h3 {
+  font-size: 1.5em;
+  color: #00796b;
+}
+
+.coming-soon p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* For the AWS card */
+.aws-card {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.aws-card-header {
+  background-color: #f0f0f06b;
+  padding: 10px;
+}
+
+.resource-select {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.loading-state {
+  text-align: center;
+  padding: 20px;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #888;
+}
+
+.ag-theme-alpine {
+  margin-top: 20px;
+}
+
+.coming-soon {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
+
+.coming-soon h3 {
+  font-size: 1.5em;
+  color: #00796b;
+}
+
+.coming-soon p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Optional: Styling the tabs to make them more prominent */
+mat-tab-group {
+  margin-top: 30px;
+}
